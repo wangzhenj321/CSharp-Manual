@@ -1,0 +1,1 @@
+[Walkthrough: Getting Started with the Windows Forms Designer](https://msdn.microsoft.com/en-us/library/9ew6tzdt(v=vs.100).aspx)
