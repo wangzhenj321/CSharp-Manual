@@ -12,7 +12,8 @@ private void textBox1_TextChanged(object sender, EventArgs e)
 ```
 
 ## Answer
-[[/img/Update-StatusStrip-in-Windows-Forms/StatusStrip.gif]]
+
+![](img/Update-StatusStrip-in-Windows-Forms/StatusStrip.gif?raw=true)
 
 You will need to add a `ToolStripStatusLabel` to the `StatusStrip`.
 
