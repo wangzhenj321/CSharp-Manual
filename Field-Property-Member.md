@@ -42,3 +42,6 @@ public class SomeClass
 #### Member
 
 Includes fields, properties, methods, events of a class.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTI0Njc1MTQxMF19
+-->
