@@ -10,7 +10,7 @@ where *expr* is an expression that evaluates to an instance of some type, and *t
 
 ## Pattern matching with `is`
 
-#### Type pattern
+### Type pattern
 
 When using the type pattern to perform pattern matching, `is` tests whether an expression can be converted to a specified type and, if it can be, casts it to a variable of that type. It is a straightforward extension of the `is` statement that enables concise type evaluation and conversion. The general form of the `is` type pattern is:
 ```c#
@@ -67,7 +67,7 @@ namespace HelloWorld
 
 The local variable **epr** is available outside the `if` statement, but not yet been instantiated. Another local variable **epe** is not available outside the `if` statement. So the scope of **epr** and **epe** is different.
 
-#### Constant pattern
+### Constant pattern
 
 When performing pattern matching with the constant pattern, `is` tests whether an expression equals a specified constant. In C# 6 and earlier versions, the constant pattern is supported by the `switch` statement. Starting with C# 7, it is supported by the `is` statement as well. Its syntax is:
 ```c#
@@ -82,5 +82,5 @@ where *expr* is the expression to evaluate, and *constant* is the value to test 
 
 1. [is (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/is)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2NTMwMTI5XX0=
+eyJoaXN0b3J5IjpbMTc0NjIxMDAxXX0=
 -->
