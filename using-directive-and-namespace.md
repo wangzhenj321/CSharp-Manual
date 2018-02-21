@@ -18,7 +18,7 @@ The `using` keyword is also used to create *using statements*, which help ensure
 
 ## namespace
 
-- The `global` namespace is the "root" namespace: `global::System` will always refer to the .NET Framework namespace `System.
+- The `global` namespace is the "root" namespace: `global::System` will always refer to the .NET Framework namespace `System`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4NTkwMzk2XX0=
+eyJoaXN0b3J5IjpbLTEwNTM4MjgyNjBdfQ==
 -->
