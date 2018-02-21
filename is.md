@@ -20,7 +20,7 @@ where *expr* is an expression that evaluates to an instance of some type, *type*
 
 **Remark**
 
-> If *exp* is `true` and `is` is used with an `if` statement, varname is assigned and has local scope within the if statement only.
+> If *exp* is `true` and `is` is used with an `if` statement, *varname* is assigned and has local scope within the if statement only.
 
 #### Constant pattern
 
@@ -37,5 +37,5 @@ where *expr* is the expression to evaluate, and *constant* is the value to test 
 
 1. [is (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/is)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTA4MDk3Ml19
+eyJoaXN0b3J5IjpbLTM3MjI4MDM1Nl19
 -->
