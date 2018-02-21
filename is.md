@@ -32,3 +32,6 @@ where *expr* is the expression to evaluate, and *constant* is the value to test 
 ## References
 
 1. [is (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/is)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTM5ODg0MzA5NV19
+-->
