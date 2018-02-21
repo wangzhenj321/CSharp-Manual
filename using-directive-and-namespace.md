@@ -25,7 +25,13 @@ The `using` keyword is also used to create *using statements*, which help ensure
 
 ### `::`
 
+Using `::` with aliases is a good idea and protects against the unexpected introduction of additional types. For example, consider this example:
+```c#
+using Alias = System;
+```
+```c#
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk0MzQ5MjFdfQ==
+eyJoaXN0b3J5IjpbLTEwOTgyNTMzMDJdfQ==
 -->
