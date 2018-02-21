@@ -14,7 +14,9 @@ The `using` directive has three uses:
 	```c#
 	using Project = PC.MyCompany.Project; 
 	```
-The `using` keyword is also used to create using statements, which help ensure that IDisposable objects such as files and fonts are handled correctly.
+The `using` keyword is also used to create *using statements*, which help ensure that IDisposable objects such as files and fonts are handled correctly.
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxOTc2MzM3XX0=
+eyJoaXN0b3J5IjpbLTExOTg2ODk1MjldfQ==
 -->
