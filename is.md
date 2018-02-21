@@ -65,7 +65,7 @@ namespace HelloWorld
 }
 ```
 
-The local variable **epr** is available outside the `if` statement, but 
+The local variable **epr** is available outside the `if` statement, but not yet been assigned an initial 
 
 #### Constant pattern
 
@@ -82,5 +82,5 @@ where *expr* is the expression to evaluate, and *constant* is the value to test 
 
 1. [is (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/is)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzU1NDc1M119
+eyJoaXN0b3J5IjpbLTE2MjcyNzA4NTFdfQ==
 -->
