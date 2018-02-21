@@ -76,7 +76,7 @@ namespace System
     }
 }
 ```
-In the above example, even though we remove the `global::` qualifier, we also can get the correct result. 
+In the above example, even though we remove the `global::` qualifier, we also can get the correct result. I think the reference conflict between the user
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjIyNDY3XX0=
+eyJoaXN0b3J5IjpbLTE5NzA1MTk3MTJdfQ==
 -->
