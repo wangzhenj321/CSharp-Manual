@@ -76,7 +76,7 @@ namespace System
     }
 }
 ```
-In the above example, even though we remove the `global::` qualifier, we also can get the correct result. I think the reference conflict between the user-defined namespace `System` and the .NET Framework namespace `System` is on the namespace level, which will not trigger error. But the w
+In the above example, even though we remove the `global::` qualifier, we also can get the correct result. I think the reference conflict between the user-defined namespace `System` and the .NET Framework namespace `System` is on the namespace level, which will not trigger error. But the error will occur as so
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODk4MTU0N119
+eyJoaXN0b3J5IjpbNzcyMTU2ODhdfQ==
 -->
