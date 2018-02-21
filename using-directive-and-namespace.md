@@ -22,7 +22,8 @@ The `using` keyword is also used to create *using statements*, which help ensure
 
 - The `global` namespace is the "root" namespace: `global::System` will always refer to the .NET Framework namespace `System` ([Namespaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/)).
 - Whether or not you explicitly declare a namespace in a C# source file, the compiler adds a default namespace. This unnamed namespace, sometimes referred to as the global namespace, is present in every file. Any identifier in the global namespace is available for use in a named namespace ([namespace (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace)).
-- 
+
+### `:`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzMTUxMzUxXX0=
+eyJoaXN0b3J5IjpbMTcyODQ3MTk4N119
 -->
