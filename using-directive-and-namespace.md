@@ -48,6 +48,8 @@ namespace Library
 ```
 This works, but if a type named `Alias` were to subsequently be introduced, `Alias.` would bind to that type instead. Using `Alias::Exception` insures that `Alias` is treated as a namespace alias and not mistaken for a type.
 
+**Reference**: [Using Namespaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/using-namespaces)
+
 ### namespace reference conflict will not trigger error
 
 ```c#
@@ -78,7 +80,7 @@ namespace System
 ```
 In the above example, even though we remove the `global::` qualifier, we also can get the correct result. I think the reference conflict between the user-defined namespace `System` and the .NET Framework namespace `System` is on the namespace level, which will not trigger error. But the error will occur as soon as the reference conflict is on the class level.
 
-**Reference**: [How to: Use the Global Namespace Alias (C# Programming Guide)]()
+**Reference**: [How to: Use the Global Namespace Alias (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/how-to-use-the-global-namespace-alias)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE2OTgwODRdfQ==
+eyJoaXN0b3J5IjpbMjcyNDQ0NjcwXX0=
 -->
