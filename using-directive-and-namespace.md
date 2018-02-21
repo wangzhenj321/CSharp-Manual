@@ -20,7 +20,7 @@ The `using` keyword is also used to create *using statements*, which help ensure
 
 ## namespace
 
-- The `global` namespace is the "root" namespace: `global::System` will always refer to the .NET Framework namespace `System`.
+- The `global` namespace is the "root" namespace: `global::System` will always refer to the .NET Framework namespace `System` ([Namespaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/)).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjYxNTQ2N119
+eyJoaXN0b3J5IjpbMjAxODQxODMzMV19
 -->
