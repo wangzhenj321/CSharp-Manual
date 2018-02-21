@@ -30,8 +30,12 @@ Using `::` with aliases is a good idea and protects against the unexpected intro
 using Alias = System;
 ```
 ```c#
-
+namespace Library
+{
+    public class C : Alias.Exception { }
+}
 ```
+This works, but if a type named `Alias` were to subsequently be introduced, `Alias.` would bind to that type instead. Using `Alias::Exception` insures that `Alias is treated as a namespace alias and not mistaken for a type.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTgyNTMzMDJdfQ==
+eyJoaXN0b3J5IjpbLTE5MDM5NjM0OTddfQ==
 -->
