@@ -22,7 +22,7 @@ The `using` keyword is also used to create *using statements*, which help ensure
 
 ### `global`
 
-- The `global` namespace is the "root" namespace: `global::System` will always refer to the .NET Framework namespace `System` ([Namespaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/)).
+- The `global` namespace is the "root" namespace: `global::System` will always refer to the .NET Framework namespace `System` ([Namespaces (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/)). To be exactly, the `global::System` is not always r
 - Whether or not you explicitly declare a namespace in a C# source file, the compiler adds a default namespace. This unnamed namespace, sometimes referred to as the global namespace, is present in every file. Any identifier in the global namespace is available for use in a named namespace ([namespace (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace)).
 
 ### `::`
@@ -39,5 +39,5 @@ namespace Library
 ```
 This works, but if a type named `Alias` were to subsequently be introduced, `Alias.` would bind to that type instead. Using `Alias::Exception` insures that `Alias` is treated as a namespace alias and not mistaken for a type.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODMyNjY3NzVdfQ==
+eyJoaXN0b3J5IjpbLTM2MTgzNjU5MF19
 -->
