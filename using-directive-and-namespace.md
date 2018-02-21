@@ -48,7 +48,33 @@ namespace Library
 ```
 This works, but if a type named `Alias` were to subsequently be introduced, `Alias.` would bind to that type instead. Using `Alias::Exception` insures that `Alias` is treated as a namespace alias and not mistaken for a type.
 
-### Refe
+### namespace reference conflict will not trigger error
+
+```c#
+using colAlias = System.Collections;
+namespace System
+{
+    class TestClass
+    {
+        static void Main()
+        {
+            // Searching the alias:
+            colAlias::Hashtable test = new colAlias::Hashtable();
+
+            // Add items to the table.
+            test.Add("A", "1");
+            test.Add("B", "2");
+            test.Add("C", "3");
+
+            foreach (string name in test.Keys)
+            {
+                // Searching the global namespace:
+                global::System.Console.WriteLine(name + " " + test[name]);
+            }
+        }
+    }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1OTYxNjE3XX0=
+eyJoaXN0b3J5IjpbNDA4OTk1NDFdfQ==
 -->
