@@ -69,6 +69,7 @@ namespace System
             foreach (string name in test.Keys)
             {
                 // Searching the global namespace:
+                // System.Console.WriteLine(name + " " + test[name]);
                 global::System.Console.WriteLine(name + " " + test[name]);
             }
         }
@@ -76,5 +77,5 @@ namespace System
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4OTk1NDFdfQ==
+eyJoaXN0b3J5IjpbMTAxNTQwMDc0NF19
 -->
