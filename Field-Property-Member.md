@@ -41,6 +41,8 @@ public class SomeClass
 
 #### Property vs Field
 
+**P**
+
 Properties expose fields. Fields should (almost always) be kept private to a class and accessed via get and set properties. Properties provide a level of abstraction allowing you to change the fields while not affecting the external way they are accessed by the things that use your class.
 
 ```c#
@@ -79,5 +81,5 @@ public class MyClass
 
 Includes fields, properties, methods, events of a class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MzkzNDYyXX0=
+eyJoaXN0b3J5IjpbODg5MTk3NjkwXX0=
 -->
