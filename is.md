@@ -22,7 +22,50 @@ where *expr* is an expression that evaluates to an instance of some type, *type*
 
 > If *exp* is `true` and `is` is used with an `if` statement, *varname* is assigned and has local scope within the `if` statement only.
 
-The following code snippet clarifies the
+The following code snippet clarifies the above statement not correct.
+
+```c#
+using System;
+
+namespace HelloWorld
+{
+    class Person
+    {
+        public string Name { get; set; }
+    }
+
+    class Employee : Person
+    {
+        public string WorkType { get; set; }
+    }
+
+    class Employer : Person
+    {
+        public double Salary { get; set; }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Person person = new Employer() { Salary = 10.0 };
+
+            if (person is Employer epr)
+            {
+                Console.WriteLine(epr.Salary);
+            }
+            else if (person is Employee epe)
+            {
+                Console.WriteLine(epe.WorkType);
+            }
+            Console.WriteLine(epr.Salary);
+            Console.WriteLine(epe.WorkType);
+        }
+    }
+}
+```
+
+
 
 #### Constant pattern
 
@@ -39,5 +82,5 @@ where *expr* is the expression to evaluate, and *constant* is the value to test 
 
 1. [is (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/is)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODIwNzIzOV19
+eyJoaXN0b3J5IjpbMTczNjUyMzU1NF19
 -->
