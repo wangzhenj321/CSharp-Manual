@@ -16,10 +16,11 @@ The `using` directive has three uses:
 	```
 The `using` keyword is also used to create *using statements*, which help ensure that IDisposable objects such as files and fonts are handled correctly.
 
+**Reference** : [using Directive (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-directive)
 
 ## namespace
 
 - The `global` namespace is the "root" namespace: `global::System` will always refer to the .NET Framework namespace `System`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAwMTc3MThdfQ==
+eyJoaXN0b3J5IjpbMTIzNjYxNTQ2N119
 -->
