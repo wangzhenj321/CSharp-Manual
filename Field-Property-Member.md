@@ -73,9 +73,11 @@ public class MyClass
 
 @GSS points out that you can also do other logic, such as validation, when a property is accessed, another useful feature.
 
+**Reference**: [What is the difference between a field and a property?](https://stackoverflow.com/questions/295104/what-is-the-difference-between-a-field-and-a-property)
+
 ### Member
 
 Includes fields, properties, methods, events of a class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDQ4Njc1NV19
+eyJoaXN0b3J5IjpbNzI1MzkzNDYyXX0=
 -->
