@@ -76,7 +76,7 @@ namespace System
     }
 }
 ```
-In the 
+In the above example, even though we remove the `global::` qualifier, we also can get the correct result. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDkyOTcxNl19
+eyJoaXN0b3J5IjpbLTkwNjIyNDY3XX0=
 -->
