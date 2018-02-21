@@ -18,6 +18,10 @@ expr is type varname
 ``` 
 where *expr* is an expression that evaluates to an instance of some type, *type* is the name of the type to which the result of *expr* is to be converted, and *varname* is the object to which the result of *expr* is converted if the `is` test is `true`.
 
+**Remark**
+
+> If *exp* is `true` and `is` is used with an if statement, varname is assigned and has local scope within the if statement only.
+
 #### Constant pattern
 
 When performing pattern matching with the constant pattern, `is` tests whether an expression equals a specified constant. In C# 6 and earlier versions, the constant pattern is supported by the `switch` statement. Starting with C# 7, it is supported by the `is` statement as well. Its syntax is:
@@ -33,5 +37,5 @@ where *expr* is the expression to evaluate, and *constant* is the value to test 
 
 1. [is (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/is)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg0MzA5NV19
+eyJoaXN0b3J5IjpbMTkzNjg0OTcwMl19
 -->
