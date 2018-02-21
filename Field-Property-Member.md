@@ -39,9 +39,12 @@ public class SomeClass
 }
 ```
 
+**Property vs Field**
+
+
 ### Member
 
 Includes fields, properties, methods, events of a class.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA2NTg5NjddfQ==
+eyJoaXN0b3J5IjpbLTE3MDU3NTgxODddfQ==
 -->
