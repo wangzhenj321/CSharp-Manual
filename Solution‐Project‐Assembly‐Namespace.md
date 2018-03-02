@@ -16,7 +16,7 @@
 
 命名空间和程序集名，都可以在Visual Studio中设置。用鼠标右键单击项目名，就可以弹出如下对话框：
 
-![](img/Solution‐Project‐Assembly‐Namespace/fig1.gif?raw=true)
+![](img/Usage-of-MessageBox/fig1.png?raw=true)
 
 在图中，Assembly Name就是程序集名，如果经过编译，则为该项目的文件名。而Default Namespace则为默认的命名空间。在开发软件时，我们要养成良好的习惯，在建立新项目后，就将这些属性设置好。一旦设置好了Default Namespace，则以后新建的对象，其命名空间即为该设定的值。至于程序集名，如果是dll文件，建议其名最好与Default Namespace一致。
 
@@ -130,5 +130,5 @@ namespace BruceZhang.com.FirstExample
 
 1. [解决方案、项目、程序集、命名空间](http://www.cnblogs.com/wayfarer/archive/2006/04/07/369371.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTkzOTgwMV19
+eyJoaXN0b3J5IjpbMTczNjIwMjE0N119
 -->
