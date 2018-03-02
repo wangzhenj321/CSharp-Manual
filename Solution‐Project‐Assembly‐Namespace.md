@@ -95,7 +95,7 @@ namespace BruceZhang.com.Printer
 4. 编译Printer项目。鼠标右键单击该项目名，在菜单中选择“Build”。成功编译后，找到文件夹Printer/bin/debug，可以发现有文件BruceZhang.com.Printer.dll，这就是最后形成的程序集文件。
 5. 关联这两个项目。我们希望是在FirstExample项目中用到Printer项目的Print()方法，前提是需要在FirstExample项目中添加对Printer项目的引用。右键单击FirstExample项目的“Reference”，选择“Add Reference”，在对话框中选择“Project”标签，找到该项目并选中，最后如图所示：
 
-![](img/Solution‐Project‐Assembly‐Namespace/?.pnfig4.gif?raw=true)
+![](img/Solution‐Project‐Assembly‐Namespace/fig4.gif?raw=true)
 
 6. 现在就可以在FirstExample项目中使用MessagePrinter了。首先，在命名空间中添加对它的使用（Using），然后再Main()方法中调用它，最后代码如下：
 
@@ -130,5 +130,5 @@ namespace BruceZhang.com.FirstExample
 
 1. [解决方案、项目、程序集、命名空间](http://www.cnblogs.com/wayfarer/archive/2006/04/07/369371.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0MDg1Mjg2XX0=
+eyJoaXN0b3J5IjpbMTAyNTkzOTgwMV19
 -->
