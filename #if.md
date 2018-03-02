@@ -1,4 +1,4 @@
-When the C# compiler encounters an #if directive, followed eventually by an #endif directive, it will compile the code between the directives only if the specified symbol is defined. Unlike C and C++, you cannot assign a numeric value to a symbol; **the #if statement in C# is Boolean and only tests whether the symbol has been defined or not**. For example,
+When the C# compiler encounters an #if directive, followed eventually by an #endif directive, it will compile the code between the directives only if the specified symbol is defined. Unlike C and C++, you cannot assign a numeric value to a symbol; ***the #if statement in C# is Boolean and only tests whether the symbol has been defined or not***. For example,
 
 ```C#
 #define DEBUG  
@@ -20,7 +20,7 @@ A conditional directive beginning with a #if directive must explicitly be termin
 
 You can also define a symbol with the /define compiler option. You can undefine a symbol with #undef.
 
-**A symbol that you define with /define or with #define does not conflict with a variable of the same name. That is, a variable name should not be passed to a preprocessor directive and a symbol can only be evaluated by a preprocessor directive.**
+***A symbol that you define with /define or with #define does not conflict with a variable of the same name. That is, a variable name should not be passed to a preprocessor directive and a symbol can only be evaluated by a preprocessor directive.***
 
 The scope of a symbol created with #define is the file in which it was defined.
 
@@ -51,5 +51,5 @@ public class MyClass
 ## References
 1.[#if (C# Reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODkyMzkyNDNdfQ==
+eyJoaXN0b3J5IjpbMTI5NzQ0NDA2M119
 -->
