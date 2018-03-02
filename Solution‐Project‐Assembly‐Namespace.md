@@ -26,38 +26,38 @@
 1. 打开Visual Studio.Net，选择“File”菜单的“new”，选择“Project”；
 2. 选择Visual C# Projects中的“Console Application”，在Location中，定位你要保存的项目的路径，而名字则为“FirstExample”。该名字此时既是解决方案的名字，同时也是该项目的名字。
 
-![](img/Solution-Project-Assembly-Namespace/fig2.gif?raw=true)
+	![](img/Solution-Project-Assembly-Namespace/fig2.gif?raw=true)
 
 3. 用鼠标右键单击项目名，在弹出的对话框中，将Assembly Name命名为HelloWorld，将Default Namespace命名为：BruceZhang.com.FirstExample。
 4. 此时Visual Studio中已经建立了一个文件，其名为Class1.cs（如果是Visual Studio 2005，则默认为Program.cs）；修改该文件的文件名为HelloWorld.cs，同时修改文件中的namespace，和类名，如下：
 
-```c#
-namespace BruceZhang.com.FirstExample
-{
- /// <summary>
- /// Summary description for Class1.
- /// </summary>
- class HelloWorld
- {
-  /// <summary>
-  /// The main entry point for the application.
-  /// </summary>
-  [STAThread]
-  static void Main(string[] args)
-  {
-   //
-   // TODO: Add code to start application here
-   //
-  }
- }
-}
-```
+	```c#
+	namespace BruceZhang.com.FirstExample
+	{
+	 /// <summary>
+	 /// Summary description for Class1.
+	 /// </summary>
+	 class HelloWorld
+	 {
+	  /// <summary>
+	  /// The main entry point for the application.
+	  /// </summary>
+	  [STAThread]
+	  static void Main(string[] args)
+	  {
+	   //
+	   // TODO: Add code to start application here
+	   //
+	  }
+	 }
+	}
+	```
 
 5. 注意在HelloWorld.cs中，有一个Main()方法。这是因为我们建立的是控制台应用程序。在Main()方法中添加如下代码：
-```c#
-Console.WriteLine("Hello World!");
-Console.Read();
-```
+	```c#
+	Console.WriteLine("Hello World!");
+	Console.Read();
+	```
 6. 运行。
 
 检查保存项目的路径文件夹FirstExample/bin/debug，已经存在了一个HelloWorld.exe文件。
@@ -130,5 +130,5 @@ namespace BruceZhang.com.FirstExample
 
 1. [解决方案、项目、程序集、命名空间](http://www.cnblogs.com/wayfarer/archive/2006/04/07/369371.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTA5NzUxMV19
+eyJoaXN0b3J5IjpbLTExNDg1NTk1NTldfQ==
 -->
