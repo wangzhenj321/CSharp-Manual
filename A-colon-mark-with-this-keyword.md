@@ -51,7 +51,10 @@ public ListNode(object dataValue)
 }
 ```
 
-Note that you can use `base` instead of `this` to instruct the constructor to call a constructor in the base class.
+***Note that you can use `base` instead of `this` to instruct the constructor to call a constructor in the base class.***
 
 ## References
 1. [What does this colon (:) mean?](https://stackoverflow.com/questions/1071148/what-does-this-colon-mean)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgxNDg5MzcwMF19
+-->
