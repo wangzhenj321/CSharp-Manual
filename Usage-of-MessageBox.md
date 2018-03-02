@@ -5,7 +5,7 @@ MessageBox.Show(
     "Cancel this operation?");
 ```
 
-[[]]
+![](img/**Usage-of-MessageBox/StatusStrip.gif?raw=true)
 
 #### 2. Displays a message box with specified text and caption
 
@@ -113,5 +113,5 @@ MessageBox.Show(
 1. [C#中MessageBox用法大全（附效果图）](http://www.cnblogs.com/rainman/archive/2013/06/03/3116283.html)
 2. [MessageBox Class](https://msdn.microsoft.com/en-us/library/system.windows.forms.messagebox(v=vs.110).aspx)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzcyNjM5XX0=
+eyJoaXN0b3J5IjpbLTE4NDc5MjM2ODZdfQ==
 -->
