@@ -95,8 +95,6 @@ MessageBox.Show(
     "mspaint.chm");
 ```
 
-[[]]
-
 #### 9. Displays a message box with the specified text, caption, buttons, icon, default button, options, and Help button, using the specified Help file and HelpNavigator
 
 ```C#
@@ -111,11 +109,9 @@ MessageBox.Show(
     HelpNavigator.Index);
 ```
 
-[[]]
-
 ## References
 1. [C#中MessageBox用法大全（附效果图）](http://www.cnblogs.com/rainman/archive/2013/06/03/3116283.html)
 2. [MessageBox Class](https://msdn.microsoft.com/en-us/library/system.windows.forms.messagebox(v=vs.110).aspx)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Njk0NzA0OV19
+eyJoaXN0b3J5IjpbLTI1NzcyNjM5XX0=
 -->
