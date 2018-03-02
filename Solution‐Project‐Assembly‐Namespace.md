@@ -16,7 +16,7 @@
 
 命名空间和程序集名，都可以在Visual Studio中设置。用鼠标右键单击项目名，就可以弹出如下对话框：
 
-[[/![](img/Solution‐Project‐Assembly‐Namespace/?.png]]fig1.gif?raw=true)
+![](img/Solution‐Project‐Assembly‐Namespace/?.png]]fig1.gif?raw=true)
 
 在图中，Assembly Name就是程序集名，如果经过编译，则为该项目的文件名。而Default Namespace则为默认的命名空间。在开发软件时，我们要养成良好的习惯，在建立新项目后，就将这些属性设置好。一旦设置好了Default Namespace，则以后新建的对象，其命名空间即为该设定的值。至于程序集名，如果是dll文件，建议其名最好与Default Namespace一致。
 
@@ -26,7 +26,7 @@
 1. 打开Visual Studio.Net，选择“File”菜单的“new”，选择“Project”；
 2. 选择Visual C# Projects中的“Console Application”，在Location中，定位你要保存的项目的路径，而名字则为“FirstExample”。该名字此时既是解决方案的名字，同时也是该项目的名字。
 
-[[/![](img/Solution‐Project‐Assembly‐Namespace/?.png]]fig2.gif?raw=true)
+![](img/Solution‐Project‐Assembly‐Namespace/?.png]]fig2.gif?raw=true)
 
 3. 用鼠标右键单击项目名，在弹出的对话框中，将Assembly Name命名为HelloWorld，将Default Namespace命名为：BruceZhang.com.FirstExample。
 4. 此时Visual Studio中已经建立了一个文件，其名为Class1.cs（如果是Visual Studio 2005，则默认为Program.cs）；修改该文件的文件名为HelloWorld.cs，同时修改文件中的namespace，和类名，如下：
@@ -65,7 +65,7 @@ Console.Read();
 #### 为解决方案添加一个新项目
 1. 在“File”菜单中，选择“Add Project”，添加“New Project”。在对话框中选择“Class Library”，名字为Printer。至于保存路径，可以放在之前建立的FirstExample文件夹下：
 
-[[/![](img/Solution‐Project‐Assembly‐Namespace/?.png]]fig3.gif?raw=true)
+![](img/Solution‐Project‐Assembly‐Namespace/?.png]]fig3.gif?raw=true)
 
 2. 在Visual Studio右侧，可以看到现在有两个项目了。仍然修改新项目的名称和默认命名空间名，均为BruceZhang.com.Printer。
 3. 将默认建立的Class1.cs改名为MessagePrinter.cs，同时修改其代码。在MessagePrinter类中，我们注意到并没有Main()方法，因为它不是应用程序。新增加的Print()方法，能够接收一个字符串，然后在控制台中显示出来。
@@ -130,5 +130,5 @@ namespace BruceZhang.com.FirstExample
 
 1. [解决方案、项目、程序集、命名空间](http://www.cnblogs.com/wayfarer/archive/2006/04/07/369371.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjUxNDAyOF19
+eyJoaXN0b3J5IjpbLTEzMTY5NzM1MDldfQ==
 -->
