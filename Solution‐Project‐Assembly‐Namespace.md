@@ -65,62 +65,62 @@
 #### 为解决方案添加一个新项目
 1. 在“File”菜单中，选择“Add Project”，添加“New Project”。在对话框中选择“Class Library”，名字为Printer。至于保存路径，可以放在之前建立的FirstExample文件夹下：
 
-![](img/Solution-Project-Assembly-Namespace/fig3.gif?raw=true)
+	![](img/Solution-Project-Assembly-Namespace/fig3.gif?raw=true)
 
 2. 在Visual Studio右侧，可以看到现在有两个项目了。仍然修改新项目的名称和默认命名空间名，均为BruceZhang.com.Printer。
 3. 将默认建立的Class1.cs改名为MessagePrinter.cs，同时修改其代码。在MessagePrinter类中，我们注意到并没有Main()方法，因为它不是应用程序。新增加的Print()方法，能够接收一个字符串，然后在控制台中显示出来。
 
-```c#
-namespace BruceZhang.com.Printer
-{
- /// <summary>
- /// Summary description for Class1.
- /// </summary>
- public class MessagePrinter
- {
-  public MessagePrinter()
-  {
-   //
-   // TODO: Add constructor logic here
-   //
-  }
-  public static void Print(string msg)
-  {
-   Console.WriteLine(msg);
-  }
- }
-}
-```
+	```c#
+	namespace BruceZhang.com.Printer
+	{
+	 /// <summary>
+	 /// Summary description for Class1.
+	 /// </summary>
+	 public class MessagePrinter
+	 {
+	  public MessagePrinter()
+	  {
+	   //
+	   // TODO: Add constructor logic here
+	   //
+	  }
+	  public static void Print(string msg)
+	  {
+	   Console.WriteLine(msg);
+	  }
+	 }
+	}
+	```
 
 4. 编译Printer项目。鼠标右键单击该项目名，在菜单中选择“Build”。成功编译后，找到文件夹Printer/bin/debug，可以发现有文件BruceZhang.com.Printer.dll，这就是最后形成的程序集文件。
 5. 关联这两个项目。我们希望是在FirstExample项目中用到Printer项目的Print()方法，前提是需要在FirstExample项目中添加对Printer项目的引用。右键单击FirstExample项目的“Reference”，选择“Add Reference”，在对话框中选择“Project”标签，找到该项目并选中，最后如图所示：
 
-![](img/Solution-Project-Assembly-Namespace/fig4.gif?raw=true)
+	![](img/Solution-Project-Assembly-Namespace/fig4.gif?raw=true)
 
 6. 现在就可以在FirstExample项目中使用MessagePrinter了。首先，在命名空间中添加对它的使用（Using），然后再Main()方法中调用它，最后代码如下：
 
-```c#
-using System;
-using BruceZhang.com.Printer;
-namespace BruceZhang.com.FirstExample
-{
- /// <summary>
- /// Summary description for Class1.
- /// </summary>
- class HelloWorld
- {
-  /// <summary>
-  /// The main entry point for the application.
-  /// </summary>
-  [STAThread]
-  static void Main(string[] args)
-  {
-   MessagePrinter.Print("Hello World!");
-   Console.Read();
-  }
- }
-}
-```
+	```c#
+	using System;
+	using BruceZhang.com.Printer;
+	namespace BruceZhang.com.FirstExample
+	{
+	 /// <summary>
+	 /// Summary description for Class1.
+	 /// </summary>
+	 class HelloWorld
+	 {
+	  /// <summary>
+	  /// The main entry point for the application.
+	  /// </summary>
+	  [STAThread]
+	  static void Main(string[] args)
+	  {
+	   MessagePrinter.Print("Hello World!");
+	   Console.Read();
+	  }
+	 }
+	}
+	```
 
 7. 运行。结果与前一个例子一样。
 
@@ -130,5 +130,5 @@ namespace BruceZhang.com.FirstExample
 
 1. [解决方案、项目、程序集、命名空间](http://www.cnblogs.com/wayfarer/archive/2006/04/07/369371.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg1NTk1NTldfQ==
+eyJoaXN0b3J5IjpbODU3NDYzNjE3XX0=
 -->
