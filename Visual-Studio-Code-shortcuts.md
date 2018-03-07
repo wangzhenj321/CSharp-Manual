@@ -5,11 +5,9 @@
 | editor.action.deleteLines | ctrl+d |
 | editor.action.commentLine | ctrl+/ |
 | editor.action.blockComment | ctrl+shift+/ |
-{
-  "key": "ctrl+oem_6",
-  "command": "editor.action.indentLines",
-  "when": "editorTextFocus && !editorReadonly"
-}
+| editor.action.indentLines | ctrl+] |
+
+
 
 ## 主命令框
 
@@ -151,5 +149,5 @@ F1 或 Ctrl+Shift+P : 打开命令面板。在打开的输入框内，可以输�
 1. [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings)
 2. [Visual Studio Code之常备快捷键](http://blog.csdn.net/u010019717/article/details/50443970)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExNzQ3NTI0XX0=
+eyJoaXN0b3J5IjpbLTE1MzEyOTY5MV19
 -->
