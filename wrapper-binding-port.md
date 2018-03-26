@@ -12,6 +12,7 @@ Cons:
 
 -   Wrapping an entire library can be extremely repetitive
 
+#### binding
 A  [binding](http://en.wikipedia.org/wiki/Language_binding)  is another bit of code that sits on top of other code to recycle it's functionality except this time bindings are written in a language different than the thing they bind. A notable example is PyQt which is the python binding for QT.
 
 Pros:
@@ -25,6 +26,7 @@ Cons:
 -   Just as repetitive as a wrapper
 -   You're probably taking a fairly large performance hit, especially any wrapper involving an interpreted language on either end
 
+#### port
 A  [Port](http://en.wikipedia.org/wiki/Porting)  is when you translate some code to work in a different environment. Common analogies include games that come out for say... XBox and are later released for PS3.
 
 Pros:
@@ -38,5 +40,5 @@ Cons:
 -   You need to make sure that whatever functionality the source library needs in a language is available in your target port language or you'll end up wrapping needed functionality (and potentially defeating the purpose.)
 -   Every time the source library updates, you have to update too by translating whatever changes they made or risk falling behind.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODUwOTI2OF19
+eyJoaXN0b3J5IjpbLTExOTgyMDU2MzZdfQ==
 -->
