@@ -1,6 +1,6 @@
 ## Tips for Using String and StringBuilder
 
-1. Use  `StringBuilder`  when you’re concatenating  `tring`s in a very long loop or in a loop within an unknown size – especially if you don’t know for sure (at compile time) how many iterations you’ll make through the loop. For example, reading a file a character at a time, building up a  `string`  as you go.
+1. Use  `StringBuilder`  when you’re concatenating  `String`s in a very long loop or in a loop within an unknown size – especially if you don’t know for sure (at compile time) how many iterations you’ll make through the loop. For example, reading a file a character at a time, building up a  `String`  as you go.
 
 2. Use  **String Concatenation operator**  when you can specify everything which needs to be concatenated in one statement. (If you have an array of things to concatenate, consider calling  `String.Concat`  explicitly – or  `String.Join`  if you need a delimiter.), avoid using the (`+=`) or the normal (`+`) for  `string`s concatenation.
 
@@ -22,5 +22,5 @@
 
 You must call the `ToString` method to convert the `StringBuilder` object to a `String` object before you can pass the string represented by the `StringBuilder` object to a method that has a `String` parameter or display it in the user interface.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyNzIwMDE2XX0=
+eyJoaXN0b3J5IjpbNTkwMzQ3NjIxXX0=
 -->
