@@ -10,11 +10,12 @@
 
 | Method Name | Description |
 | --- | --- |
+| Append(UInt32) | Appends the string representation of a specified 32-bit unsigned integer to this instance. |
 | AppendLine() | Appends the default line terminator to the end of the current StringBuilder object.|
 | AppendLine(String) | Appends a copy of the specified string followed by the default line terminator to the end of the current StringBuilder object. |
 | 
 
 ## Methods of StringBuilder
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzk1NDUyNl19
+eyJoaXN0b3J5IjpbLTE5NTc0NTg2NzZdfQ==
 -->
