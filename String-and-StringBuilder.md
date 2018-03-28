@@ -8,8 +8,9 @@
 
 ## Methods of String
 
+| -
 
 ## Methods of StringBuilder
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzMjAyOTQ3XX0=
+eyJoaXN0b3J5IjpbLTEwMTIxMTU3MjZdfQ==
 -->
