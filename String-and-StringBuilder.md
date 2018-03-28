@@ -11,7 +11,7 @@
 | Method Name | Description |
 | --- | --- |
 | Concat(String[]) | Concatenates the elements of a specified String array. |
-| 
+| Join(String, String[]) | Concatenates all the elements of a string array, using the specified separator between each element. |
 
 ## Methods of StringBuilder
 
@@ -26,5 +26,5 @@
 
 You must call the `ToString` method to convert the `StringBuilder` object to a `String` object before you can pass the string represented by the `StringBuilder` object to a method that has a `String` parameter or display it in the user interface.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTAyNzk3MF19
+eyJoaXN0b3J5IjpbNTM0MDA1MzMxXX0=
 -->
