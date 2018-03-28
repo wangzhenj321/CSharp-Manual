@@ -2,9 +2,11 @@
 
 | Method Name | Description |
 | --- | --- |
-| Move(String, String) | Moves a specified file to a new location, providing the option to specify a new file name. |
-| Delete(String) | Deletes the specified file. |
 | Copy(String, String) | Copies an existing file to a new file. Overwriting a file of the same name is not allowed. |
+| Copy(String, String, Boolean) | Copies an existing file to a new file. Overwriting a file of the same name is allowed. |
+| Delete(String) | Deletes the specified file. |
+| Move(String, String) | Moves a specified file to a new location, providing the option to specify a new file name. |
+
 
 ## Path
 
@@ -15,5 +17,5 @@
 | GetFileName(String) | Returns the file name and extension of the specified path string. |
 | GetFileNameWithoutExtension(String) | Returns the file name of the specified path string without the extension. |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzg0MDc5MV19
+eyJoaXN0b3J5IjpbMzE1ODAyNDBdfQ==
 -->
