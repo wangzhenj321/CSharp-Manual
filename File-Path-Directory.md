@@ -25,7 +25,7 @@ eyJoaXN0b3J5IjpbMzE1ODAyNDBdfQ==
 | --- | --- |
 | CreateDirectory(String) | Creates all directories and subdirectories in the specified path unless they already exist. |
 | Exists(String) | Determines whether the given path refers to an existing directory on disk. |
-| GetFiles(String)
+| GetFiles(String) | Returns the names of files (including their paths) in the specified directory. |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDUzMDY1XX0=
+eyJoaXN0b3J5IjpbMTA1MDk2OTg2OF19
 -->
