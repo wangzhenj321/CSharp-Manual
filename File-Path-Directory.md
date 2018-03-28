@@ -23,7 +23,7 @@ eyJoaXN0b3J5IjpbMzE1ODAyNDBdfQ==
 
 | Method Name | Description |
 | --- | --- |
-| 
+| CreateDirectory(String) | 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTU1MTczXX0=
+eyJoaXN0b3J5IjpbLTE2NjUzMzA4MTRdfQ==
 -->
