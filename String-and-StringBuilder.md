@@ -13,14 +13,14 @@
 
 | Method Name | Description |
 | --- | --- |
-| `Append(UInt32)` | Appends the string representation of a specified 32-bit unsigned integer to this instance. |
-| `AppendLine()` | Appends the default line terminator to the end of the current StringBuilder object.|
-| `AppendLine(String)` | Appends a copy of the specified string followed by the default line terminator to the end of the current StringBuilder object. |
-| `ToString()` | Converts the value of this instance to a String. |
+| Append(UInt32) | Appends the string representation of a specified 32-bit unsigned integer to this instance. |
+| AppendLine() | Appends the default line terminator to the end of the current StringBuilder object.|
+| AppendLine(String) | Appends a copy of the specified string followed by the default line terminator to the end of the current StringBuilder object. |
+| ToString() | Converts the value of this instance to a String. |
 
 #### Remarks
 
 You must call the `ToString` method to convert the `StringBuilder` object to a `String` object before you can pass the string represented by the `StringBuilder` object to a method that has a `String` parameter or display it in the user interface.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzMjQ1NzBdfQ==
+eyJoaXN0b3J5IjpbMTcxMDY5NDM2Nl19
 -->
