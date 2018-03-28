@@ -17,9 +17,9 @@
 
 #### Remarks
 
-You must call the ToString method to convert the StringBuilder object to a String object before you can pass the string represented by the StringBuilder object to a method that has a String parameter or display it in the user interface.
+You must call the `ToString` method to convert the `StringBuilder` object to a String object before you can pass the string represented by the StringBuilder object to a method that has a String parameter or display it in the user interface.
 
 ## Methods of StringBuilder
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0NTg0NjU5XX0=
+eyJoaXN0b3J5IjpbODk3NDg3MTFdfQ==
 -->
