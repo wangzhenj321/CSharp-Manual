@@ -8,11 +8,13 @@
 
 ## Methods of String
 
-| Method | 
+| Method Name | Description |
 | --- | --- |
 | AppendLine() | Appends the default line terminator to the end of the current StringBuilder object.|
+| AppendLine(String) | Appends a copy of the specified string followed by the default line terminator to the end of the current StringBuilder object. |
+| 
 
 ## Methods of StringBuilder
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTAxODA1OF19
+eyJoaXN0b3J5IjpbLTkwMzk1NDUyNl19
 -->
