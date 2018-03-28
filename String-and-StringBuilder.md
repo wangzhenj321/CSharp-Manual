@@ -8,9 +8,11 @@
 
 ## Methods of String
 
-| :---: | :--- |
+| Method | 
+| --- | --- |
+| AppendLine() | Appends the default line terminator to the end of the current StringBuilder object.|
 
 ## Methods of StringBuilder
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjU0MDY3N119
+eyJoaXN0b3J5IjpbLTIyOTAxODA1OF19
 -->
