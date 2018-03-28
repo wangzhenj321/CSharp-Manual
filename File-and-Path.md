@@ -7,6 +7,12 @@
 | Copy(String, String) | Copies an existing file to a new file. Overwriting a file of the same name is not allowed. |
 
 ## Path
+
+| Method Name | Description |
+| --- | --- |
+| Combine(String, String) | Combines two strings into a path. |
+| GetDirectoryName(String) | Returns the directory information for the specified path string. |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTI3NDEyM119
+eyJoaXN0b3J5IjpbLTE4NDE4Mzg2NzRdfQ==
 -->
