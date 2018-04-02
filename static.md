@@ -1,0 +1,2 @@
+**static** members are entirely specific to the **declaring** class; subclasses do not get separate copies. The only exception here is generics; if an open generic type declares static fields, the field is specific to that exact combination of type arguments that make up the closed generic type; i.e. Foo<int> would have separate static fields to Foo<string>, assuming the fields are defined on Foo<T>.
+
